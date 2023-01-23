@@ -9,3 +9,6 @@ def SelectionSort(array, size):
         min_idx = step
 
         for i in range(step + 1, size):
+    #Change > to < to sort in descending order
+            if array[i] < array[min_idx]:
+                min_idx = i
