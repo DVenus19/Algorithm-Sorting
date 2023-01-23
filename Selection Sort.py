@@ -12,3 +12,6 @@ def SelectionSort(array, size):
     #Change > to < to sort in descending order
             if array[i] < array[min_idx]:
                 min_idx = i
+
+        #next, place the min at the correct position
+        (array[step], array[min_idx]) = (array[min_idx], array[step])
