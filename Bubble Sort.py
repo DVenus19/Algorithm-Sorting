@@ -11,3 +11,5 @@ def BubbleSort(array):
                 temp = array[j]
                 array[j] = array[j + 1]
                 array[j + 1] = temp #if elements are not in the intended order swap the elements
+
+data = [50,71,7,81,20,6,30,90,86,10]
