@@ -18,3 +18,4 @@ def SelectionSort(array, size):
 
 data = [50,71,7,81,20,6,30,90,86,10]
 size = len(data)
+SelectionSort(data, size)
