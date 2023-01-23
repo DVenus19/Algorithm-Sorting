@@ -20,3 +20,4 @@ data = [50,71,7,81,20,6,30,90,86,10]
 size = len(data)
 SelectionSort(data, size)
 print('Result of the sorted array by Selection Sort: ')
+print(data)
