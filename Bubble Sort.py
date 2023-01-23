@@ -14,3 +14,6 @@ def BubbleSort(array):
 
 data = [50,71,7,81,20,6,30,90,86,10]
 BubbleSort(data)
+
+print('Result of the sorted array by Bubble Sort:')
+print(data)
