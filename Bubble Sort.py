@@ -3,3 +3,5 @@ print("~~~~~~~~~~Donasco , Venus M.~~~~~~~~~~")
 print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 
 #Python - Bubble Sort
+
+def bubbleSort(array):
