@@ -7,3 +7,5 @@ print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 def SelectionSort(array, size):
     for step in range(size):
         min_idx = step
+
+        for i in range(step + 1, size):
