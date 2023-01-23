@@ -15,3 +15,5 @@ def SelectionSort(array, size):
 
         #next, place the min at the correct position
         (array[step], array[min_idx]) = (array[min_idx], array[step])
+
+data = [50,71,7,81,20,6,30,90,86,10]
