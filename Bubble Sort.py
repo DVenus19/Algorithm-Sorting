@@ -4,4 +4,5 @@ print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 
 #Python - Bubble Sort
 
-def bubbleSort(array):
+def BubbleSort(array):
+    for i in range(len(array)): #To access the array element
