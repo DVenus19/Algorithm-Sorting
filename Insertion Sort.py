@@ -14,7 +14,9 @@ def InsertionSort(array):
             array[j + 1] = array[j]
             j = j - 1
 
-            array[j + 1] = key
+            array[j + 1] = key #place the key after finding the element smaller from it
+
+data = [50,71,7,81,20,6,30,90,86,10]
 
 
 
