@@ -9,6 +9,7 @@ def Insertion_Sort(array):
         value = array[i]
         j = i - 1
         while j >= 0 and value < array[j]:
+            array[j+1] = array[j]
 
 
 
