@@ -13,3 +13,8 @@ def Partition(array, low, high):
         (array[i], array[j]) = (array[j], array[i])
     (array[i + 1], array[high]) = (array[high], array[i + 1])
     return i + 1
+
+def QuickSort(array, low, high):
+    if low < high:
+        pi = Partition(array, low, high)
+        QuickSort(array, low, pi - 1)
