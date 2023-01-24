@@ -14,6 +14,8 @@ def InsertionSort(array):
             array[j + 1] = array[j]
             j = j - 1
 
+            array[j + 1] = key
+
 
 
 
