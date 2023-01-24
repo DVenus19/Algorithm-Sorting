@@ -9,6 +9,7 @@ def InsertionSort(array):
         key = array[step]
         j = step - 1
 
+       #Compare the key in left element if its greater or less than until smallest element is found
         while j >= 0 and key < array[j]:
             array[j + 1] = array[j]
             j = j - 1
