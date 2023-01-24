@@ -10,6 +10,7 @@ def InsertionSort(array):
         j = step - 1
 
         while j >= 0 and key < array[j]:
+            array[j + 1] = array[j]
 
 
 
