@@ -33,4 +33,8 @@ def MergeSort(array):
             i += 1
             k += 1
 
+        while j < len(Y):
+            array[k] = Y[j]
+            j += 1
+            k += 1
 
