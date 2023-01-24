@@ -42,3 +42,11 @@ def List(array):
     for i in range(len(array)):
         print(array[i], end=" ")
     print()
+
+if __name__ == '__main__':
+    array = [50,71,7,81,20,6,30,90,86,10]
+
+    MergeSort(array)
+
+    print('Result of the sorted array by Merge Sort:')
+    List(array)
