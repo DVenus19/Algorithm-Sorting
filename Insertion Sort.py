@@ -4,7 +4,7 @@ print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 
 #Python - Insertion Sort
 
-def Insertion_Sort(array):
+def InsertionSort(array):
 
 
 
