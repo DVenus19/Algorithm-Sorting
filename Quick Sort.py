@@ -23,3 +23,4 @@ def QuickSort(array, low, high):
 data = [50,71,7,81,20,6,30,90,86,10]
 print("Given Array Value - unsorted")
 print(data)
+size = len(data)
