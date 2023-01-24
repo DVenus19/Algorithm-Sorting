@@ -5,6 +5,9 @@ print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 #Python - Insertion Sort
 
 def InsertionSort(array):
+    for step in range(1, len(array)):
+        key = array[step]
+        j = step - 1
 
 
 
