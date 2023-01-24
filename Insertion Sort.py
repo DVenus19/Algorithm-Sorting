@@ -15,7 +15,7 @@ def Insertion_Sort(array):
             return array
 
 array = [50,71,7,81,20,6,30,90,86,10]
-print()
+print("Given array value is : ", array)
 
 
 
