@@ -5,3 +5,5 @@ print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 #Python - Insertion Sort
 
 def Insertion_Sort(array):
+    for i in range(1,len(array)):
+
