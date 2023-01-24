@@ -6,4 +6,6 @@ print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 
 def Insertion_Sort(array):
     for i in range(1,len(array)):
+        value = array[i]
+
 
