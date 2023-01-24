@@ -10,3 +10,9 @@ def MergeSort(array):
         r = len(array)//2
         X = array[:r]
         Y = array[r:]
+
+        #
+        MergeSort(X)
+        MergeSort(Y)
+
+
