@@ -6,3 +6,6 @@ print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 def Partition(array, low, high):
     pivot = array[high]
     i = low - 1
+    for j in range(low, high):
+        if array[j] <= pivot:
+            i = i + 1
