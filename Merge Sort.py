@@ -11,8 +11,17 @@ def MergeSort(array):
         X = array[:r]
         Y = array[r:]
 
-        #
+        #sort it into two
         MergeSort(X)
         MergeSort(Y)
+
+
+        i = j = k = 0
+
+
+        while i < len(X) and j < len(Y):
+           if X[i] < Y[j]:
+                   array[k] = X[i]
+                   i += 1
 
 
