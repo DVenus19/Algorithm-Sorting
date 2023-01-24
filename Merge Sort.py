@@ -3,4 +3,5 @@ print("~~~~~~~~~~Donasco , Venus M.~~~~~~~~~~")
 print("~~~~~~~~~~BSCOE 2-2~~~~~~~~~~")
 
 #Python = Merge Sort
-def InsertionSort(array):
+def MergeSort(array):
+    if len(array) > 1:
