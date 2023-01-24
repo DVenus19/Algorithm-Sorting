@@ -38,3 +38,7 @@ def MergeSort(array):
             j += 1
             k += 1
 
+def List(array):
+    for i in range(len(array)):
+        print(array[i], end=" ")
+    print()
