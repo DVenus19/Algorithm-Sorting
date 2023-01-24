@@ -9,3 +9,5 @@ def Partition(array, low, high):
     for j in range(low, high):
         if array[j] <= pivot:
             i = i + 1
+
+        (array[i], array[j]) = (array[j], array[i])
