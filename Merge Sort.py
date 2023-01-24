@@ -23,5 +23,14 @@ def MergeSort(array):
            if X[i] < Y[j]:
                    array[k] = X[i]
                    i += 1
+           else:
+                   array[k] = Y[j]
+                   j += 1
+           k += 1
+
+        while i < len(X):
+            array[k] = X[i]
+            i += 1
+            k += 1
 
 
